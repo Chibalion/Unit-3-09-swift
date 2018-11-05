@@ -1,0 +1,14 @@
+//Created on: October 2018
+//Created by: Justin Richards
+//This program shows u
+
+var letter = UnicodeScalar(65)
+var lowerLetter = UnicodeScalar(97)
+
+for count in 65 ... 90 {
+    letter = UnicodeScalar(count)
+    for innerCount in 97 ... 122 {
+    lowerLetter = UnicodeScalar(innerCount)
+        show("\(letter!) -> \(lowerLetter!)")
+}
+}
